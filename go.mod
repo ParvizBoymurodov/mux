@@ -1,4 +1,4 @@
-module mux
+module github.com/ParvizBoymurodov/mux
 
 go 1.13
 

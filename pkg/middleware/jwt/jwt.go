@@ -70,3 +70,6 @@ func FromContext(ctx context.Context) (payload interface{}) {
 	payload = ctx.Value(payloadContextKey)
 	return
 }
+func IsContextNonEmpty(ctx context.Context) bool {
+	return nil != ctx.Value(payloadContextKey)
+}
